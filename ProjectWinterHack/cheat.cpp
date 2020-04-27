@@ -79,7 +79,7 @@ void __fastcall GameManager_UpdateHook(GameManager* gameManager)
 
 	if (!gameStarted)
 	{
-		gameManager->SetAwardedPoints(rand() % 7500 + 2500, true, false);
+		gameManager->SetAwardedPoints(2500, true, false);
 	}
 	gameStarted = true;
 
